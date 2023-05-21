@@ -1,5 +1,5 @@
 # Readme
-## Tips the project don't conclude the directory pool
+## Tips the project don't conclude the directory pool and ThreadPool.h. The ThreadPool.cpp is the whole project.
 ## introduction
 
 This is a ThreadPool made with C++ by using visual studio and it should be connected to a linux system to compile it.
