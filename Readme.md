@@ -1,5 +1,5 @@
 # Readme
-
+## Tips the project don't conclude the directory pool
 ## introduction
 
 This is a ThreadPool made with C++ by using visual studio and it should be connected to a linux system to compile it.
