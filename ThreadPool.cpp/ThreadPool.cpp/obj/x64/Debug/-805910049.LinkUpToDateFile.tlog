@@ -1,1 +1,1 @@
-g++ -o "/home/whl/projects/ThreadPool.cpp/bin/x64/Debug/ThreadPool.cpp.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/whl/projects/ThreadPool.cpp/obj/x64/Debug/main.o
+g++ -o "/home/whl/projects/ThreadPool.cpp/bin/x64/Debug/ThreadPool.cpp.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/whl/projects/ThreadPool.cpp/obj/x64/Debug/main.o /home/whl/projects/ThreadPool.cpp/obj/x64/Debug/ThreadPool.o

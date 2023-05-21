@@ -5,12 +5,9 @@
   正在启动远程生成
   正在编译源:
   main.cpp
-C:\Users\15517\Desktop\C++\线程池\ThreadPool.cpp\ThreadPool.cpp\main.cpp(2,10): error : threadpool.h: No such file or directory
-C:\Users\15517\Desktop\C++\线程池\ThreadPool.cpp\ThreadPool.cpp\main.cpp(2,10): error :     2 | #include "threadpool.h"
-C:\Users\15517\Desktop\C++\线程池\ThreadPool.cpp\ThreadPool.cpp\main.cpp(2,10): error :       |          ^~~~~~~~~~~~~~
-C:\Users\15517\Desktop\C++\线程池\ThreadPool.cpp\ThreadPool.cpp\main.cpp(2,10): error : compilation terminated.
   ThreadPool.cpp
-C:\Users\15517\Desktop\C++\线程池\ThreadPool.cpp\ThreadPool.cpp\ThreadPool.cpp(2,10): error : threadpool.h: No such file or directory
-C:\Users\15517\Desktop\C++\线程池\ThreadPool.cpp\ThreadPool.cpp\ThreadPool.cpp(2,10): error :     2 | #include "threadpool.h"
-C:\Users\15517\Desktop\C++\线程池\ThreadPool.cpp\ThreadPool.cpp\ThreadPool.cpp(2,10): error :       |          ^~~~~~~~~~~~~~
-C:\Users\15517\Desktop\C++\线程池\ThreadPool.cpp\ThreadPool.cpp\ThreadPool.cpp(2,10): error : compilation terminated.
+C:\Users\15517\Desktop\C++\线程池\ThreadPool.cpp\ThreadPool.cpp\ThreadPool.cpp(149,41): warning : conversion from ‘std::queue<Task>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+C:\Users\15517\Desktop\C++\线程池\ThreadPool.cpp\ThreadPool.cpp\ThreadPool.cpp(149,41): warning :   149 |         int queuesize = pool->taskQ.size();
+C:\Users\15517\Desktop\C++\线程池\ThreadPool.cpp\ThreadPool.cpp\ThreadPool.cpp(149,41): warning :       |                         ~~~~~~~~~~~~~~~~^~
+  正在链接对象
+  ThreadPool.cpp.vcxproj -> C:\Users\15517\Desktop\C++\线程池\ThreadPool.cpp\ThreadPool.cpp\bin\x64\Debug\ThreadPool.cpp.out

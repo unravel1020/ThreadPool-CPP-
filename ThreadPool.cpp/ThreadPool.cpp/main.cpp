@@ -1,5 +1,5 @@
 ﻿//main.cpp
-#include "threadpool.h"
+#include "ThreadPool.h"
 #include <iostream>
 #include <unistd.h>
 #include <stdlib.h>
@@ -19,13 +19,13 @@ int main()
     int i;
     for (i = 0; i < 100; ++i)
     {
-        int* num = new int(i + 100);
+        int* num = new int[(size_t)i+100];
         pool.Add(taskFunc, (void*)num);
     }
     for (; i < 200; ++i)
     {
         sleep(1);
-        int* num = new int(i + 100);
+        int* num = new int[(size_t)i + 100];
         pool.Add(taskFunc, (void*)num);
     }
     return 0;
