@@ -51,16 +51,12 @@ sudo /etc/init.d/ssh start
 
 ### Second set up visual studio
 
-![image-20230521200106955](C:\Users\15517\AppData\Roaming\Typora\typora-user-images\image-20230521200106955.png)
-
 - open the tools then choose the options
 - choose the connection manager
 - add a new connection
 - the first one is the ip of your ubuntu, the second one port is 22 as default for ssh the third one is user name for yourself to login your ubuntu. And you can choose your password of your username to verify or use key to verify.
 
 ### Third, set up a new project for linux by visual studio
-
-![image-20230521200751323](C:\Users\15517\AppData\Roaming\Typora\typora-user-images\image-20230521200751323.png)
 
 choose a console application compiling by Linux
 
