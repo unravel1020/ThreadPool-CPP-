@@ -1,0 +1,16 @@
+﻿  正在验证源
+  正在将源远程复制到“172.30.79.36”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+C:\Users\15517\Desktop\C++\线程池\ThreadPool.cpp\ThreadPool.cpp\main.cpp(2,10): error : threadpool.h: No such file or directory
+C:\Users\15517\Desktop\C++\线程池\ThreadPool.cpp\ThreadPool.cpp\main.cpp(2,10): error :     2 | #include "threadpool.h"
+C:\Users\15517\Desktop\C++\线程池\ThreadPool.cpp\ThreadPool.cpp\main.cpp(2,10): error :       |          ^~~~~~~~~~~~~~
+C:\Users\15517\Desktop\C++\线程池\ThreadPool.cpp\ThreadPool.cpp\main.cpp(2,10): error : compilation terminated.
+  ThreadPool.cpp
+C:\Users\15517\Desktop\C++\线程池\ThreadPool.cpp\ThreadPool.cpp\ThreadPool.cpp(2,10): error : threadpool.h: No such file or directory
+C:\Users\15517\Desktop\C++\线程池\ThreadPool.cpp\ThreadPool.cpp\ThreadPool.cpp(2,10): error :     2 | #include "threadpool.h"
+C:\Users\15517\Desktop\C++\线程池\ThreadPool.cpp\ThreadPool.cpp\ThreadPool.cpp(2,10): error :       |          ^~~~~~~~~~~~~~
+C:\Users\15517\Desktop\C++\线程池\ThreadPool.cpp\ThreadPool.cpp\ThreadPool.cpp(2,10): error : compilation terminated.
